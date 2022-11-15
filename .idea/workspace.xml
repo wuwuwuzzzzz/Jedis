@@ -4,8 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e16c28d6-ca16-4b02-a237-4787e378a2e8" name="Changes" comment="jedis 基本操作 redis">
+    <list default="true" id="e16c28d6-ca16-4b02-a237-4787e378a2e8" name="Changes" comment="优化代码">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jedis/CASDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jedis/ContainerNotSafeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jedis/CountDownLatchDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jedis/CountryEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jedis/CyclicBarrierDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jedis/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jedis/ReadWriteLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jedis/RedisClusterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jedis/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jedis/SpinLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jedis/VolatileDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +27,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -39,15 +52,16 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
 }</component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="Application.PhoneCode">
-    <configuration name="PhoneCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.jedis.PhoneCode" />
+  <component name="RunManager" selected="Application.CyclicBarrierDemo">
+    <configuration name="ContainerNotSafeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.jedis.ContainerNotSafeDemo" />
       <module name="jedis_redis" />
       <extension name="coverage">
         <pattern>
@@ -59,7 +73,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JedisDemo1Test.demo2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CountDownLatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.jedis.CountDownLatchDemo" />
       <module name="jedis_redis" />
       <extension name="coverage">
         <pattern>
@@ -67,15 +82,12 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.jedis" />
-      <option name="MAIN_CLASS_NAME" value="org.example.jedis.JedisDemo1Test" />
-      <option name="METHOD_NAME" value="demo2" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JedisDemo1Test.demo3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CyclicBarrierDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.jedis.CyclicBarrierDemo" />
       <module name="jedis_redis" />
       <extension name="coverage">
         <pattern>
@@ -83,15 +95,12 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.jedis" />
-      <option name="MAIN_CLASS_NAME" value="org.example.jedis.JedisDemo1Test" />
-      <option name="METHOD_NAME" value="demo3" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JedisDemo1Test.demo4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReadWriteLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.jedis.ReadWriteLockDemo" />
       <module name="jedis_redis" />
       <extension name="coverage">
         <pattern>
@@ -99,15 +108,12 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.jedis" />
-      <option name="MAIN_CLASS_NAME" value="org.example.jedis.JedisDemo1Test" />
-      <option name="METHOD_NAME" value="demo4" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JedisDemo1Test.demo5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpinLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.jedis.SpinLockDemo" />
       <module name="jedis_redis" />
       <extension name="coverage">
         <pattern>
@@ -115,21 +121,17 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.jedis" />
-      <option name="MAIN_CLASS_NAME" value="org.example.jedis.JedisDemo1Test" />
-      <option name="METHOD_NAME" value="demo5" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PhoneCode" />
-        <item itemvalue="JUnit.JedisDemo1Test.demo5" />
-        <item itemvalue="JUnit.JedisDemo1Test.demo4" />
-        <item itemvalue="JUnit.JedisDemo1Test.demo3" />
-        <item itemvalue="JUnit.JedisDemo1Test.demo2" />
+        <item itemvalue="Application.CyclicBarrierDemo" />
+        <item itemvalue="Application.CountDownLatchDemo" />
+        <item itemvalue="Application.ReadWriteLockDemo" />
+        <item itemvalue="Application.SpinLockDemo" />
+        <item itemvalue="Application.ContainerNotSafeDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +144,18 @@
       <option name="presentableId" value="Default" />
       <updated>1666013443466</updated>
       <workItem from="1666013445234" duration="1436000" />
-      <workItem from="1666056424449" duration="7554000" />
+      <workItem from="1666056424449" duration="7586000" />
+      <workItem from="1666081084901" duration="942000" />
+      <workItem from="1666096412357" duration="1049000" />
+      <workItem from="1666097714713" duration="2091000" />
+      <workItem from="1666142791966" duration="7290000" />
+      <workItem from="1666165296696" duration="1527000" />
+      <workItem from="1666228726529" duration="1604000" />
+      <workItem from="1668150837040" duration="3956000" />
+      <workItem from="1668237083086" duration="3031000" />
+      <workItem from="1668321281763" duration="14988000" />
+      <workItem from="1668388202970" duration="18104000" />
+      <workItem from="1668496996361" duration="735000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1666016914550</created>
@@ -158,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666064147029</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="优化代码">
+      <created>1666064836570</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666064836570</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +198,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="jedis 基本操作 redis" />
-    <option name="LAST_COMMIT_MESSAGE" value="jedis 基本操作 redis" />
+    <MESSAGE value="优化代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化代码" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
