@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e16c28d6-ca16-4b02-a237-4787e378a2e8" name="Changes" comment="优化代码">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jedis/ProdConsumerBlockQueueDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/jedis/SyncAndReentrantLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/jedis/SyncAndReentrantLockDemo.java" afterDir="false" />
-    </list>
+    <list default="true" id="e16c28d6-ca16-4b02-a237-4787e378a2e8" name="Changes" comment="优化代码" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -147,7 +143,7 @@
       <workItem from="1668388202970" duration="18104000" />
       <workItem from="1668496996361" duration="2632000" />
       <workItem from="1668562312893" duration="10400000" />
-      <workItem from="1668605652981" duration="2744000" />
+      <workItem from="1668605652981" duration="3051000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1666016914550</created>
@@ -198,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668590745160</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="优化代码">
+      <created>1668608722514</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668608722514</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
