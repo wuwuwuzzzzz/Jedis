@@ -10,6 +10,7 @@ class ShareResource {
     private Lock lock = new ReentrantLock();
     private Condition c1 = lock.newCondition();
     private Condition c2 = lock.newCondition();
+
     private Condition c3 = lock.newCondition();
 
     public void print() {

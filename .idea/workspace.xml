@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e16c28d6-ca16-4b02-a237-4787e378a2e8" name="Changes" comment="优化代码">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jedis/SyncAndReentrantLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jedis/ProdConsumerBlockQueueDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/jedis/ProdConsumer_TraditionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/jedis/ProdConsumerTraditionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/jedis/SyncAndReentrantLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/jedis/SyncAndReentrantLockDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,7 @@
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="Application.ProdConsumerTraditionDemo">
+  <component name="RunManager" selected="Application.ProdConsumerBlockQueueDemo">
     <configuration name="BlockingQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.jedis.BlockingQueueDemo" />
       <module name="jedis_redis" />
@@ -63,8 +63,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountDownLatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.jedis.CountDownLatchDemo" />
+    <configuration name="CyclicBarrierDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.jedis.CyclicBarrierDemo" />
       <module name="jedis_redis" />
       <extension name="coverage">
         <pattern>
@@ -76,8 +76,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CyclicBarrierDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.jedis.CyclicBarrierDemo" />
+    <configuration name="ProdConsumerBlockQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.jedis.ProdConsumerBlockQueueDemo" />
       <module name="jedis_redis" />
       <extension name="coverage">
         <pattern>
@@ -117,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProdConsumerBlockQueueDemo" />
         <item itemvalue="Application.ProdConsumerTraditionDemo" />
         <item itemvalue="Application.BlockingQueueDemo" />
         <item itemvalue="Application.SemaphoreDemo" />
         <item itemvalue="Application.CyclicBarrierDemo" />
-        <item itemvalue="Application.CountDownLatchDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +146,8 @@
       <workItem from="1668321281763" duration="14988000" />
       <workItem from="1668388202970" duration="18104000" />
       <workItem from="1668496996361" duration="2632000" />
-      <workItem from="1668562312893" duration="10368000" />
+      <workItem from="1668562312893" duration="10400000" />
+      <workItem from="1668605652981" duration="2744000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1666016914550</created>
@@ -190,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668586629750</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="优化代码">
+      <created>1668590745160</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668590745160</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
