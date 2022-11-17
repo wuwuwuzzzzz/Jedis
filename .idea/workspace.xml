@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e16c28d6-ca16-4b02-a237-4787e378a2e8" name="Changes" comment="优化代码" />
+    <list default="true" id="e16c28d6-ca16-4b02-a237-4787e378a2e8" name="Changes" comment="优化代码">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/jedis/CallableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/jedis/CallableDemo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +48,7 @@
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="Application.ProdConsumerBlockQueueDemo">
+  <component name="RunManager" selected="Application.CallableDemo">
     <configuration name="BlockingQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.jedis.BlockingQueueDemo" />
       <module name="jedis_redis" />
@@ -59,8 +62,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CyclicBarrierDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.jedis.CyclicBarrierDemo" />
+    <configuration name="CallableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.jedis.CallableDemo" />
       <module name="jedis_redis" />
       <extension name="coverage">
         <pattern>
@@ -113,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CallableDemo" />
         <item itemvalue="Application.ProdConsumerBlockQueueDemo" />
         <item itemvalue="Application.ProdConsumerTraditionDemo" />
         <item itemvalue="Application.BlockingQueueDemo" />
         <item itemvalue="Application.SemaphoreDemo" />
-        <item itemvalue="Application.CyclicBarrierDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +146,8 @@
       <workItem from="1668388202970" duration="18104000" />
       <workItem from="1668496996361" duration="2632000" />
       <workItem from="1668562312893" duration="10400000" />
-      <workItem from="1668605652981" duration="3051000" />
+      <workItem from="1668605652981" duration="3757000" />
+      <workItem from="1668647899899" duration="4070000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1666016914550</created>
@@ -201,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668608722514</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="优化代码">
+      <created>1668609094757</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668609094757</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
