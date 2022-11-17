@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e16c28d6-ca16-4b02-a237-4787e378a2e8" name="Changes" comment="优化代码">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jedis/MyThreadPollDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/jedis/CallableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/jedis/CallableDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,7 @@
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="Application.CallableDemo">
+  <component name="RunManager" selected="Application.MyThreadPollDemo">
     <configuration name="BlockingQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.jedis.BlockingQueueDemo" />
       <module name="jedis_redis" />
@@ -64,6 +64,19 @@
     </configuration>
     <configuration name="CallableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.jedis.CallableDemo" />
+      <module name="jedis_redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.jedis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyThreadPollDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.jedis.MyThreadPollDemo" />
       <module name="jedis_redis" />
       <extension name="coverage">
         <pattern>
@@ -101,26 +114,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SemaphoreDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.jedis.SemaphoreDemo" />
-      <module name="jedis_redis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.jedis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyThreadPollDemo" />
         <item itemvalue="Application.CallableDemo" />
         <item itemvalue="Application.ProdConsumerBlockQueueDemo" />
         <item itemvalue="Application.ProdConsumerTraditionDemo" />
         <item itemvalue="Application.BlockingQueueDemo" />
-        <item itemvalue="Application.SemaphoreDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +147,7 @@
       <workItem from="1668496996361" duration="2632000" />
       <workItem from="1668562312893" duration="10400000" />
       <workItem from="1668605652981" duration="3757000" />
-      <workItem from="1668647899899" duration="4070000" />
+      <workItem from="1668647899899" duration="9140000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1666016914550</created>
@@ -212,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668609094757</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="优化代码">
+      <created>1668652231666</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1668652231666</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
