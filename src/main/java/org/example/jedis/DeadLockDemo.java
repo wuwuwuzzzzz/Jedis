@@ -1,9 +1,6 @@
 package org.example.jedis;
 
-import org.omg.CORBA.TIMEOUT;
-
 import java.util.concurrent.TimeUnit;
-import java.util.concurrent.locks.Lock;
 
 class HoldLockThread implements Runnable {
 
