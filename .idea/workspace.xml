@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e16c28d6-ca16-4b02-a237-4787e378a2e8" name="Changes" comment="优化代码">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jedis/WeakHashMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jedis/ReferenceQueueDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,9 +55,9 @@
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="Application.WeakHashMapDemo">
-    <configuration name="DeadLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.jedis.DeadLockDemo" />
+  <component name="RunManager" selected="Application.ReferenceQueueDemo">
+    <configuration name="ReferenceQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.jedis.ReferenceQueueDemo" />
       <module name="jedis_redis" />
       <extension name="coverage">
         <pattern>
@@ -123,19 +123,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ReferenceQueueDemo" />
       <item itemvalue="Application.WeakHashMapDemo" />
       <item itemvalue="Application.WeakReferenceDemo" />
-      <item itemvalue="Application.DeadLockDemo" />
       <item itemvalue="Application.SoftReferenceDemo" />
       <item itemvalue="Application.StrongReferenceDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReferenceQueueDemo" />
         <item itemvalue="Application.WeakHashMapDemo" />
         <item itemvalue="Application.WeakReferenceDemo" />
         <item itemvalue="Application.SoftReferenceDemo" />
         <item itemvalue="Application.StrongReferenceDemo" />
-        <item itemvalue="Application.DeadLockDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +165,7 @@
       <workItem from="1668647899899" duration="14525000" />
       <workItem from="1668735160938" duration="6430000" />
       <workItem from="1668829002677" duration="1007000" />
-      <workItem from="1668836388440" duration="4988000" />
+      <workItem from="1668836388440" duration="5243000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1666016914550</created>
@@ -293,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668845724077</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="优化代码">
+      <created>1668853215029</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1668853215029</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
