@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e16c28d6-ca16-4b02-a237-4787e378a2e8" name="Changes" comment="优化代码">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/WeakReferenceDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/jedis/SoftReferenceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/jedis/SoftReferenceDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,7 @@
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="Application.SoftReferenceDemo">
+  <component name="RunManager" selected="Application.WeakReferenceDemo">
     <configuration name="DeadLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.jedis.DeadLockDemo" />
       <module name="jedis_redis" />
@@ -71,19 +71,6 @@
     </configuration>
     <configuration name="GcDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.jedis.GcDemo" />
-      <module name="jedis_redis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.jedis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyThreadPoolDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.jedis.MyThreadPoolDemo2" />
       <module name="jedis_redis" />
       <extension name="coverage">
         <pattern>
@@ -122,20 +109,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WeakReferenceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.WeakReferenceDemo" />
+      <module name="jedis_redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.WeakReferenceDemo" />
       <item itemvalue="Application.DeadLockDemo" />
       <item itemvalue="Application.GcDemo" />
-      <item itemvalue="Application.MyThreadPoolDemo2" />
       <item itemvalue="Application.SoftReferenceDemo" />
       <item itemvalue="Application.StrongReferenceDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WeakReferenceDemo" />
         <item itemvalue="Application.SoftReferenceDemo" />
         <item itemvalue="Application.StrongReferenceDemo" />
         <item itemvalue="Application.DeadLockDemo" />
         <item itemvalue="Application.GcDemo" />
-        <item itemvalue="Application.MyThreadPoolDemo2" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +165,7 @@
       <workItem from="1668647899899" duration="14525000" />
       <workItem from="1668735160938" duration="6430000" />
       <workItem from="1668829002677" duration="1007000" />
-      <workItem from="1668836388440" duration="2246000" />
+      <workItem from="1668836388440" duration="2569000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1666016914550</created>
@@ -279,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668844784404</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="优化代码">
+      <created>1668845427500</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1668845427500</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
