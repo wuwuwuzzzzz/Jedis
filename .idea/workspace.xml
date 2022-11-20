@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e16c28d6-ca16-4b02-a237-4787e378a2e8" name="Changes" comment="优化代码">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jedis/DirectBufferDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jedis/UnableCreateNewThreadDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +166,7 @@
       <workItem from="1668647899899" duration="14525000" />
       <workItem from="1668735160938" duration="6430000" />
       <workItem from="1668829002677" duration="1007000" />
-      <workItem from="1668836388440" duration="11142000" />
+      <workItem from="1668836388440" duration="11446000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1666016914550</created>
@@ -330,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668945415033</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="优化代码">
+      <created>1668947801483</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1668947801483</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
