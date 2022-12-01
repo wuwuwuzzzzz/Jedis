@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e16c28d6-ca16-4b02-a237-4787e378a2e8" name="Changes" comment="优化代码">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jedis/StringDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jedis/StringPool58Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -177,6 +177,9 @@
       <workItem from="1669124144984" duration="2230000" />
       <workItem from="1669166177317" duration="2258000" />
       <workItem from="1669255890256" duration="6000" />
+      <workItem from="1669273221922" duration="859000" />
+      <workItem from="1669688756669" duration="7000" />
+      <workItem from="1669881044961" duration="451000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1666016914550</created>
@@ -360,7 +363,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668954498520</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="优化代码">
+      <created>1669273245886</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1669273245886</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
