@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e16c28d6-ca16-4b02-a237-4787e378a2e8" name="Changes" comment="优化代码">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jedis/ReEnterLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jedis/LockSupportDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,9 +58,9 @@
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="Application.ReEnterLockDemo">
-    <configuration name="GcDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.jedis.GcDemo" />
+  <component name="RunManager" selected="Application.LockSupportDemo">
+    <configuration name="LockSupportDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.jedis.LockSupportDemo" />
       <module name="jedis_redis" />
       <extension name="coverage">
         <pattern>
@@ -125,19 +125,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.LockSupportDemo" />
       <item itemvalue="Application.ReEnterLockDemo" />
       <item itemvalue="Application.StringPool58Demo" />
       <item itemvalue="Application.TwoSumDemo" />
       <item itemvalue="Application.StringDemo" />
-      <item itemvalue="Application.GcDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LockSupportDemo" />
         <item itemvalue="Application.ReEnterLockDemo" />
         <item itemvalue="Application.TwoSumDemo" />
         <item itemvalue="Application.StringPool58Demo" />
         <item itemvalue="Application.StringDemo" />
-        <item itemvalue="Application.GcDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +178,7 @@
       <workItem from="1669688756669" duration="7000" />
       <workItem from="1669881044961" duration="4729000" />
       <workItem from="1669887485135" duration="2466000" />
-      <workItem from="1669945044607" duration="2273000" />
+      <workItem from="1669945044607" duration="4241000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1666016914550</created>
@@ -383,7 +383,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669945054377</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="优化代码">
+      <created>1669947857598</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1669947857598</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
