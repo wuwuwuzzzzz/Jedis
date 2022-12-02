@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e16c28d6-ca16-4b02-a237-4787e378a2e8" name="Changes" comment="优化代码">
-      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jedis/TwoSumDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jedis/ReEnterLockDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,23 +42,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "leetcode.id"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;leetcode.id&quot;
   }
-}]]></component>
+}</component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="Application.TwoSumDemo">
+  <component name="RunManager" selected="Application.ReEnterLockDemo">
     <configuration name="GcDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.jedis.GcDemo" />
       <module name="jedis_redis" />
@@ -74,10 +72,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MetaspaceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.jedis.MetaspaceDemo" />
+    <configuration name="ReEnterLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.jedis.ReEnterLockDemo" />
       <module name="jedis_redis" />
-      <option name="VM_PARAMETERS" value="-XX:MetaspaceSize=10m -XX:MaxMetaspaceSize=10m" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.jedis.*" />
@@ -128,19 +125,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ReEnterLockDemo" />
       <item itemvalue="Application.StringPool58Demo" />
       <item itemvalue="Application.TwoSumDemo" />
       <item itemvalue="Application.StringDemo" />
       <item itemvalue="Application.GcDemo" />
-      <item itemvalue="Application.MetaspaceDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReEnterLockDemo" />
         <item itemvalue="Application.TwoSumDemo" />
         <item itemvalue="Application.StringPool58Demo" />
         <item itemvalue="Application.StringDemo" />
         <item itemvalue="Application.GcDemo" />
-        <item itemvalue="Application.MetaspaceDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -181,6 +178,7 @@
       <workItem from="1669688756669" duration="7000" />
       <workItem from="1669881044961" duration="4729000" />
       <workItem from="1669887485135" duration="2466000" />
+      <workItem from="1669945044607" duration="2273000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1666016914550</created>
@@ -378,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669881502458</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="优化代码">
+      <created>1669945054377</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1669945054377</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
