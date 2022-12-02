@@ -1,7 +1,9 @@
 package org.example.jedis;
 
+import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.LockSupport;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
@@ -18,6 +20,27 @@ public class LockSupportDemo {
     static Condition condition = lock.newCondition();
 
     public static void main(String[] args) {
+        Thread threadA = new Thread(() -> {
+            System.out.println(Thread.currentThread().getName() + "\t" + "come in");
+            LockSupport.park();
+            System.out.println(Thread.currentThread().getName() + "\t" + "被唤醒");
+        }, "A");
+        threadA.start();
+
+        try {
+            TimeUnit.SECONDS.sleep(3);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+
+        Thread threadB = new Thread(() -> {
+            LockSupport.unpark(threadA);
+            System.out.println(Thread.currentThread().getName() + "\t" + "通知");
+        }, "B");
+        threadB.start();
+    }
+
+    private static void lockAwaitSignal() {
         new Thread(() -> {
             lock.lock();
             try {
